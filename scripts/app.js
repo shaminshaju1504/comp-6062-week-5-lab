@@ -69,11 +69,11 @@ let isLessOrEqual=a<=0;
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-let andResult=a&&b;
+let andResult=a>5&&b>5;
 
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
-let orResult=a||b;
+let orResult=a>5||b>5;
 
 //
 // Do not edit below this line doing so will break the project, this code will display the values on the page
